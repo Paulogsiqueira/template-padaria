@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Padaria Pão Dourado — pães artesanais, confeitaria e cafeteria feitos com fermentação natural todos os dias." />
+  <title>Pão Dourado · Padaria Artesanal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="topo">
+    <nav class="nav container">
+      <a href="#topo" class="brand">
+        <span class="brand-mark">🥐</span>
+        <span>Pão&nbsp;Dourado</span>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#diferenciais">Diferenciais</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#contato" class="btn btn-pill">Fazer pedido</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="eyebrow">Fermentação natural · desde 1998</p>
+        <h1>O pão de cada dia,<br /><em>feito de verdade.</em></h1>
+        <p class="lead">Pães artesanais, doces e cafés preparados na hora, com farinha selecionada e o tempo que o sabor pede.</p>
+        <div class="hero-actions">
+          <a href="#produtos" class="btn btn-primary">Ver o cardápio</a>
+          <a href="#contato" class="btn btn-ghost">Onde estamos →</a>
+        </div>
+        <ul class="hero-stats">
+          <li><strong>25+</strong><span>anos de forno</span></li>
+          <li><strong>40</strong><span>receitas próprias</span></li>
+          <li><strong>5h</strong><span>fresco todo dia</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="sobre" class="about container">
+      <div class="about-media">
+        <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=80" alt="Pães artesanais saindo do forno" loading="lazy" />
+      </div>
+      <div class="about-text">
+        <p class="eyebrow">Nossa história</p>
+        <h2>Uma padaria de bairro que virou ponto de encontro</h2>
+        <p>Tudo começou com um forno a lenha e a receita de família. Hoje continuamos fiéis ao mesmo princípio: ingredientes simples, fermentação lenta e nenhuma pressa para entregar o melhor sabor.</p>
+        <p>Cada fornada nasce de madrugada para que, quando você chegar, o cheiro de pão quente esteja esperando por você.</p>
+        <a href="#diferenciais" class="link-arrow">Por que somos diferentes →</a>
+      </div>
+    </section>
+
+    <section id="produtos" class="products">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Cardápio</p>
+          <h2>O que sai do nosso forno</h2>
+        </div>
+        <div class="product-grid">
+          <article class="card">
+            <div class="card-img" style="--img:url('https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=600&q=80')"></div>
+            <div class="card-body">
+              <h3>Pães Artesanais</h3>
+              <p>Sourdough, baguete e o clássico pão francês crocante.</p>
+              <span class="price">a partir de R$ 6</span>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-img" style="--img:url('https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=600&q=80')"></div>
+            <div class="card-body">
+              <h3>Confeitaria</h3>
+              <p>Croissants, sonhos e bolos do dia feitos com manteiga de verdade.</p>
+              <span class="price">a partir de R$ 8</span>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-img" style="--img:url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80')"></div>
+            <div class="card-body">
+              <h3>Cafeteria</h3>
+              <p>Espresso, cappuccino e métodos coados para acompanhar.</p>
+              <span class="price">a partir de R$ 7</span>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-img" style="--img:url('https://images.unsplash.com/photo-1568254183919-78a4f43a2877?auto=format&fit=crop&w=600&q=80')"></div>
+            <div class="card-body">
+              <h3>Encomendas</h3>
+              <p>Bolos de festa, cestas e kits de café da manhã sob medida.</p>
+              <span class="price">sob consulta</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="diferenciais" class="features">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Diferenciais</p>
+          <h2>Feito com calma, do jeito certo</h2>
+        </div>
+        <div class="feature-grid">
+          <div class="feature"><span class="feature-icon">🌾</span><h3>Farinha selecionada</h3><p>Trabalhamos só com farinhas de moinhos que conhecemos pelo nome.</p></div>
+          <div class="feature"><span class="feature-icon">⏳</span><h3>Fermentação lenta</h3><p>Até 24h de descanso da massa para mais sabor e digestão leve.</p></div>
+          <div class="feature"><span class="feature-icon">🔥</span><h3>Assado na hora</h3><p>Fornadas ao longo do dia para você levar sempre quentinho.</p></div>
+          <div class="feature"><span class="feature-icon">🤝</span><h3>Atendimento de bairro</h3><p>A gente conhece o seu pedido antes mesmo de você falar.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="container">
+        <blockquote>“Não troco o pão da Pão Dourado por nada. Café da manhã de domingo aqui em casa só com pão deles.”</blockquote>
+        <cite>— Marina A., cliente há 9 anos</cite>
+      </div>
+    </section>
+
+    <section id="contato" class="contact">
+      <div class="container contact-inner">
+        <div class="contact-info">
+          <p class="eyebrow">Venha nos visitar</p>
+          <h2>Estamos te esperando</h2>
+          <ul class="info-list">
+            <li><strong>Endereço</strong>Rua das Flores, 123 — Centro</li>
+            <li><strong>Horário</strong>Seg a Sáb · 6h às 20h · Dom · 6h às 13h</li>
+            <li><strong>Telefone</strong>(11) 4000-0000</li>
+            <li><strong>WhatsApp</strong>(11) 90000-0000</li>
+          </ul>
+        </div>
+        <form class="contact-form" onsubmit="return false;">
+          <h3>Faça sua encomenda</h3>
+          <label>Nome<input type="text" placeholder="Seu nome" required /></label>
+          <label>WhatsApp<input type="tel" placeholder="(11) 90000-0000" required /></label>
+          <label>Pedido<textarea rows="3" placeholder="Conte o que você precisa"></textarea></label>
+          <button type="submit" class="btn btn-primary">Enviar pedido</button>
+          <small>Demonstração · este formulário não envia dados.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="brand"><span class="brand-mark">🥐</span> Pão Dourado</span>
+      <p>Rua das Flores, 123 — Centro · (11) 4000-0000</p>
+      <p class="muted">© <span id="year"></span> Pão Dourado · Template de demonstração.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
